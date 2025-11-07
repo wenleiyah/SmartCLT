@@ -1,8 +1,10 @@
 # SmartCLT Workshop Repository
 
-<video src="Optimisation%20Sequence.mp4" controls loop muted playsinline style="max-width: 100%; height: auto;">
-  Your browser does not support the video tag. You can download the <a href="Optimisation%20Sequence.mp4">optimisation sequence</a> instead.
-</video>
+![Scanning Sequence](ScanningSequence.gif)
+<p align="center"> <i>scanning log geometries, and choosing optimal stacking configurations</i> </p>
+
+![Optimisation Sequence](OptimisationSequence.gif)
+<p align="center"> <i>using <b>simulated annealing</b> to <b>minimise the total overlap cost</b></i> </p>
 
 SmartCLT documents a multi-disciplinary workshop focused on reimagining cross-laminated timber (CLT) through data-driven design, imaging, and fabrication. At its core is the **simulated-annealing optimisation pipeline** developed during the Algorithm track to compute **minimal overlap stacking sequences** for scanned logs. The repository aggregates the contributions from several focused tracks that feed into and build upon this optimisation work:
 
@@ -75,3 +77,7 @@ Example outputs are already saved in the repository for quick reference:
 This workshop was delivered by a multi-disciplinary team covering imaging, algorithm development, construction planning, fabrication, and workflow design. I focused on the **Algorithm** track, working on the development of the **simulated-annealing-based approach** for computing minimal overlap between logs and coordinating the data hand-offs to the downstream teams.
 
 For a visual summary, refer to `presentation_poster.jpg` and the reference photos in the `Photos/` directory.
+
+Supervised by: prof. Carlo Ratti, Mykola Murashko, Nikita Klimenko, and workshop participants.
+
+![final presentation poster](presentation_poster.jpg)
